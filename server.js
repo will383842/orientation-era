@@ -294,7 +294,7 @@ ${results.phase1}
     // PROMPT CLAUDE : Métiers structurés + potentiel d'avenir
     const promptClaude = `${baseContext}
 
-Tu es un conseiller d'orientation expert. Ta mission : proposer des métiers avec un FORT POTENTIEL D'AVENIR.
+Tu es un conseiller d'orientation expert en 2025. Ta mission : proposer des métiers avec un FORT POTENTIEL D'AVENIR en tenant compte de la RÉVOLUTION DE L'IA.
 
 Le Bac Pro ERA donne des compétences en :
 - Lecture et création de plans (AutoCAD, SketchUp)
@@ -303,10 +303,34 @@ Le Bac Pro ERA donne des compétences en :
 - Gestion de projet/chantier
 - Sens de l'esthétique et des volumes
 
+## ⚠️ CONTEXTE CRUCIAL : L'IMPACT DE L'IA EN 2025-2035
+
+L'Intelligence Artificielle transforme TOUS les métiers. Pour chaque métier proposé, tu dois évaluer :
+
+**🟢 MÉTIERS RÉSISTANTS À L'IA (à privilégier) :**
+- Travail MANUEL et physique (l'IA ne peut pas poser une cuisine)
+- Contact HUMAIN fort (relation client, accompagnement)
+- CRÉATIVITÉ complexe (design sur-mesure, artistique)
+- Adaptation au TERRAIN (chaque chantier est unique)
+- ARTISANAT d'excellence (savoir-faire irremplaçable)
+
+**🟡 MÉTIERS QUI UTILISENT L'IA COMME OUTIL (très porteurs) :**
+- BIM avec IA intégrée
+- Design assisté par IA (Midjourney, DALL-E pour les concepts)
+- Modélisation 3D augmentée
+- Gestion de projet avec outils IA
+
+**🔴 MÉTIERS À RISQUE (à éviter ou anticiper) :**
+- Tâches répétitives de bureau
+- Dessin technique basique (l'IA le fait déjà)
+- Administration pure
+
 ## CRITÈRES IMPORTANTS :
 - ✅ Formations EN PRÉSENTIEL uniquement
 - ✅ Diplômes RECONNUS (État ou RNCP)
 - ✅ Focus sur les MÉTIERS D'AVENIR avec fort potentiel
+- ✅ Évaluer la RÉSISTANCE À L'IA de chaque métier
+- ✅ Privilégier les métiers MANUELS, CRÉATIFS ou à fort CONTACT HUMAIN
 
 ═══════════════════════════════════════════════════════════════
 PROPOSE CES CATÉGORIES DE MÉTIERS :
@@ -482,9 +506,10 @@ FORMAT POUR CHAQUE MÉTIER :
 **[NOM DU MÉTIER]** [emoji]
 - 💡 Quoi : [description en 1-2 lignes]
 - 📈 Avenir : [pourquoi ce métier a du potentiel]
+- 🤖 Résistance IA : [🟢 Fort / 🟡 Utilise l'IA / 🔴 À risque] + explication courte
 - 📚 Formation : [diplôme + durée + alternance possible ?]
 - 🏫 Où : [établissements, surtout en région si possible]
-- 🎯 Chances d'admission : [Évalue les chances pour un Bac Pro ERA : Élevées ⭐⭐⭐ / Moyennes ⭐⭐ / Sélectives ⭐ + explication]
+- 🎯 Chances d'admission : [Élevées ⭐⭐⭐ / Moyennes ⭐⭐ / Sélectives ⭐ + explication]
 - 💰 Salaire : [débutant → confirmé]
 
 ## IMPORTANT SUR LES CHANCES D'ADMISSION :
@@ -499,7 +524,14 @@ Sois CONCIS et PRÉCIS. Pas de blabla.`;
     // PROMPT GPT : Créativité et métiers insolites
     const promptGPT = `${baseContext}
 
-Tu es un CHASSEUR DE MÉTIERS D'AVENIR. Ta mission : trouver des métiers ORIGINAUX avec un FORT POTENTIEL.
+Tu es un CHASSEUR DE MÉTIERS D'AVENIR. Ta mission : trouver des métiers ORIGINAUX avec un FORT POTENTIEL face à l'évolution de l'IA.
+
+## ⚠️ CONTEXTE CRUCIAL : L'IA TRANSFORME TOUT
+
+Privilégie les métiers qui RÉSISTENT ou TIRENT PROFIT de l'IA :
+- 🟢 **RÉSISTANTS** : Travail manuel, contact humain, créativité sur-mesure, intervention terrain
+- 🟡 **UTILISENT L'IA** : Métiers augmentés par l'IA (design assisté, BIM intelligent)
+- 🔴 **À ÉVITER** : Tâches répétitives, dessin technique basique, administration pure
 
 ═══════════════════════════════════════════════════════════════
 CHERCHE DES MÉTIERS DANS CES DOMAINES ÉMERGENTS :
@@ -567,6 +599,7 @@ POUR CHAQUE MÉTIER, DONNE DES INFOS COMPLÈTES :
 **[NOM DU MÉTIER]** [emoji]
 - 💡 **C'est quoi** : description claire en 2-3 lignes
 - 📈 **Pourquoi c'est l'avenir** : tendances, demande, croissance
+- 🤖 **Résistance IA** : [🟢 Fort / 🟡 Utilise l'IA / 🔴 À risque] + pourquoi
 - 🎓 **Formation** : diplôme exact + durée + alternance possible ?
 - 🏫 **Où se former** : établissements (surtout région Auvergne-Rhône-Alpes si possible)
 - 🎯 **Chances d'admission Bac Pro ERA** : Élevées ⭐⭐⭐ / Moyennes ⭐⭐ / Sélectives ⭐ + explication
@@ -622,25 +655,30 @@ CRÉE CE RAPPORT DE SYNTHÈSE
 ═══════════════════════════════════════════════════════════════
 
 ## 🎯 L'ESSENTIEL EN 5 LIGNES
-Résumé de ce qu'il faut retenir pour cette étudiante.
+Résumé de ce qu'il faut retenir pour cette étudiante, notamment face à l'évolution de l'IA.
+
+## ⚠️ CONSEIL CRUCIAL SUR L'IA
+En 3 lignes max : pourquoi privilégier les métiers résistants à l'IA (manuel, humain, créatif, terrain).
 
 ## 🚀 TOP 5 : MÉTIERS D'AVENIR RECOMMANDÉS
-Les 5 métiers avec le meilleur potentiel pour les 10 prochaines années, adaptés à son profil.
+Les 5 métiers avec le meilleur potentiel pour les 10 prochaines années, RÉSISTANTS à l'IA.
 
 Pour chaque métier :
-| Métier | Ce que c'est | Pourquoi c'est l'avenir | Formation | Chances admission | Salaire |
-|--------|--------------|------------------------|-----------|-------------------|---------|
-(Chances : ⭐⭐⭐ Élevées, ⭐⭐ Moyennes, ⭐ Sélectives)
+| Métier | Ce que c'est | Résistance IA | Formation | Chances admission | Salaire |
+|--------|--------------|---------------|-----------|-------------------|---------|
+(Résistance : 🟢 Fort, 🟡 Utilise IA, 🔴 Risque | Chances : ⭐⭐⭐ Élevées, ⭐⭐ Moyennes, ⭐ Sélectives)
 
 ## 🌟 5 MÉTIERS SURPRENANTS À DÉCOUVRIR
-Des métiers originaux auxquels elle n'aurait pas pensé.
+Des métiers originaux auxquels elle n'aurait pas pensé (avec bonne résistance IA).
 
-Même format tableau avec chances d'admission.
+| Métier | Ce que c'est | Résistance IA | Formation | Chances admission | Salaire |
+|--------|--------------|---------------|-----------|-------------------|---------|
 
 ## 💼 5 MÉTIERS STABLES SI ELLE VEUT LA SÉCURITÉ
-Des métiers classiques mais avec de bons débouchés.
+Des métiers classiques mais avec de bons débouchés ET résistants à l'IA.
 
-Même format tableau avec chances d'admission.
+| Métier | Ce que c'est | Résistance IA | Formation | Chances admission | Salaire |
+|--------|--------------|---------------|-----------|-------------------|---------|
 
 ## 🔄 CHANGER COMPLÈTEMENT DE VOIE : 6 AUTRES DOMAINES
 Si elle veut faire TOTALEMENT autre chose, voici les options accessibles avec son Bac Pro :
@@ -682,20 +720,23 @@ IMPORTANT : Montre-lui qu'elle n'est PAS enfermée et peut se réorienter totale
 - DN MADE, Licences Pro, écoles
 - Où en France
 
-## 🗺️ 3 PARCOURS POSSIBLES
+## 🗺️ 4 PARCOURS POSSIBLES (tous résistants à l'IA)
 
-**PARCOURS 1 : "Travailler vite et bien"**
-Bac Pro ERA → [Formation courte] → [Métier] → [Évolution possible]
+**PARCOURS 1 : "Travailler vite et bien" 🟢**
+Bac Pro ERA → [Formation courte] → [Métier MANUEL] → [Évolution possible]
+*Résistance IA : FORTE (travail de terrain, chaque chantier est unique)*
 
-**PARCOURS 2 : "Métier d'avenir numérique"**
-Bac Pro ERA → [Formation] → [Métier tech/BIM] → [Évolution]
+**PARCOURS 2 : "Métier d'avenir numérique" 🟡**
+Bac Pro ERA → [Formation] → [Métier tech/BIM AUGMENTÉ par l'IA] → [Évolution]
+*Résistance IA : UTILISE L'IA comme outil, pas remplacé par elle*
 
-**PARCOURS 3 : "Créativité et passion"**
-Bac Pro ERA → [Formation design] → [Métier créatif] → [Évolution]
+**PARCOURS 3 : "Créativité et passion" 🟢**
+Bac Pro ERA → [Formation design] → [Métier créatif SUR-MESURE] → [Évolution]
+*Résistance IA : FORTE (créativité humaine irremplaçable)*
 
-**PARCOURS 4 : "Changer complètement de voie"**
+**PARCOURS 4 : "Changer complètement de voie" 🟢**
 Bac Pro ERA → [Formation dans un autre domaine] → [Nouveau métier] → [Évolution]
-(Ex: commerce/vente, social/animation, santé, sécurité/armée, fonction publique, transport/logistique)
+(Commerce/vente, social/animation, santé, sécurité/armée - tous à FORT contact humain)
 
 ## 📝 COMMENT S'INSCRIRE
 
