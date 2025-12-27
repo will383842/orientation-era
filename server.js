@@ -63,9 +63,9 @@ async function callClaude(prompt, maxTokens = 8192) {
     }
 }
 
-async function callGPT(prompt, maxTokens = 8192) {
+async function callGPT(prompt, maxTokens = 4000) {
     if (!APIs.openai.available) return { error: 'GPT non configuré' };
-    
+
     try {
         const response = await fetch(APIs.openai.url, {
             method: 'POST',
@@ -74,9 +74,9 @@ async function callGPT(prompt, maxTokens = 8192) {
                 'Authorization': `Bearer ${APIs.openai.key}`
             },
             body: JSON.stringify({
-                model: 'gpt-4-turbo-preview',
+                model: 'gpt-4o',
                 messages: [{ role: 'user', content: prompt }],
-                max_tokens: maxTokens
+                max_tokens: Math.min(maxTokens, 4000)
             })
         });
         const data = await response.json();
@@ -87,9 +87,9 @@ async function callGPT(prompt, maxTokens = 8192) {
     }
 }
 
-async function callPerplexity(prompt, maxTokens = 8192) {
+async function callPerplexity(prompt, maxTokens = 4000) {
     if (!APIs.perplexity.available) return { error: 'Perplexity non configuré' };
-    
+
     try {
         const response = await fetch(APIs.perplexity.url, {
             method: 'POST',
@@ -98,7 +98,7 @@ async function callPerplexity(prompt, maxTokens = 8192) {
                 'Authorization': `Bearer ${APIs.perplexity.key}`
             },
             body: JSON.stringify({
-                model: 'llama-3.1-sonar-large-128k-online',
+                model: 'sonar',
                 messages: [{ role: 'user', content: prompt }],
                 max_tokens: maxTokens
             })
