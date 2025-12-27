@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code - Orientation ERA</title>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #8b5cf6, #ec4899);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: white;
+        }
+        .card {
+            background: white;
+            border-radius: 24px;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 400px;
+            width: 100%;
+        }
+        h1 {
+            color: #8b5cf6;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        p { color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; }
+        #qrcode {
+            display: flex;
+            justify-content: center;
+            margin: 1.5rem 0;
+        }
+        #qrcode canvas {
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(139, 92, 246, 0.3);
+        }
+        .url {
+            background: #f3f4f6;
+            padding: 0.75rem 1rem;
+            border-radius: 10px;
+            font-family: monospace;
+            font-size: 0.85rem;
+            color: #374151;
+            word-break: break-all;
+            margin-bottom: 1.5rem;
+        }
+        .instructions {
+            text-align: left;
+            background: #faf5ff;
+            padding: 1rem;
+            border-radius: 12px;
+            font-size: 0.85rem;
+            color: #374151;
+        }
+        .instructions h3 {
+            color: #8b5cf6;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+        .instructions ol {
+            padding-left: 1.2rem;
+            line-height: 1.8;
+        }
+        .badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #8b5cf6, #ec4899);
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        .warning {
+            background: #fef3c7;
+            color: #92400e;
+            padding: 0.75rem;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            margin-top: 1rem;
+        }
+        .btn {
+            background: linear-gradient(135deg, #8b5cf6, #ec4899);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 1rem;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(139, 92, 246, 0.4); }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <span class="badge">iPhone & Tablette</span>
+        <h1>Scanne ce QR Code</h1>
+        <p>Pour accéder à Orientation ERA depuis ton téléphone</p>
+
+        <div id="qrcode"></div>
+
+        <div class="url" id="urlDisplay">Chargement...</div>
+
+        <div class="instructions">
+            <h3>Comment faire :</h3>
+            <ol>
+                <li>Ouvre l'appareil photo de ton iPhone</li>
+                <li>Pointe vers le QR code</li>
+                <li>Appuie sur la notification qui apparaît</li>
+                <li>L'application s'ouvre dans Safari !</li>
+            </ol>
+        </div>
+
+        <div class="warning">
+            ⚠️ L'iPhone doit être sur le même WiFi que cet ordinateur
+        </div>
+
+        <a href="/" class="btn">← Retour à l'application</a>
+    </div>
+
+    <script>
+        // Déterminer l'URL à utiliser
+        const host = window.location.hostname;
+        const port = window.location.port || '3000';
+        const url = `http://${host}:${port}`;
+
+        // Afficher l'URL
+        document.getElementById('urlDisplay').textContent = url;
+
+        // Générer le QR code
+        QRCode.toCanvas(document.createElement('canvas'), url, {
+            width: 200,
+            margin: 2,
+            color: {
+                dark: '#8b5cf6',
+                light: '#ffffff'
+            }
+        }, function (error, canvas) {
+            if (error) {
+                console.error(error);
+                document.getElementById('qrcode').innerHTML = '<p style="color:red;">Erreur de génération</p>';
+                return;
+            }
+            document.getElementById('qrcode').appendChild(canvas);
+        });
+    </script>
+</body>
+</html>

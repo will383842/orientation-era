@@ -1,0 +1,89 @@
+╔══════════════════════════════════════════════════════════════╗
+║     HEBERGEMENT GRATUIT - Orientation ERA sur Internet       ║
+╚══════════════════════════════════════════════════════════════╝
+
+Cette option te permet d'acceder a l'application depuis
+n'importe ou (iPhone, tablette, autre ordi) SANS avoir
+besoin de laisser ton ordinateur allume.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  OPTION 1 : RENDER.COM (Recommande - Gratuit)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ETAPE 1 : Creer un compte GitHub
+   → Va sur https://github.com
+   → Clique "Sign up" et cree ton compte
+
+ETAPE 2 : Mettre le code sur GitHub
+   → Cree un nouveau repository (prive de preference)
+   → Uploade tous les fichiers du dossier orientation-era
+   → ATTENTION : N'uploade PAS le fichier .env (il contient tes cles !)
+
+ETAPE 3 : Deployer sur Render
+   → Va sur https://render.com
+   → Clique "Get Started for Free"
+   → Connecte-toi avec ton compte GitHub
+   → Clique "New +" → "Web Service"
+   → Selectionne ton repository GitHub
+   → Configure :
+      - Name : orientation-era
+      - Environment : Node
+      - Build Command : npm install
+      - Start Command : npm start
+      - Plan : Free
+
+ETAPE 4 : Ajouter les cles API
+   → Dans Render, va dans "Environment"
+   → Ajoute ces variables :
+      - ANTHROPIC_API_KEY = ta cle sk-ant-...
+      - OPENAI_API_KEY = ta cle sk-...
+      - PERPLEXITY_API_KEY = ta cle pplx-...
+
+ETAPE 5 : Deployer
+   → Clique "Create Web Service"
+   → Attends quelques minutes
+   → Tu recevras une URL du type : https://orientation-era.onrender.com
+
+UTILISATION :
+   → Ouvre cette URL sur ton iPhone ou n'importe quel appareil
+   → Ajoute a l'ecran d'accueil pour un acces rapide
+
+LIMITES DU PLAN GRATUIT :
+   - L'app "dort" apres 15 min d'inactivite
+   - Premier chargement peut prendre 30-60 secondes
+   - 750 heures/mois (largement suffisant)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  OPTION 2 : RAILWAY.APP (Alternative)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+   → Va sur https://railway.app
+   → Connecte-toi avec GitHub
+   → "New Project" → "Deploy from GitHub repo"
+   → Configure les variables d'environnement
+   → L'app se deploie automatiquement
+
+Avantage : Plus rapide au demarrage que Render
+Limite : 5$/mois de credits gratuits
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  SECURITE IMPORTANTE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️  NE JAMAIS partager ou publier tes cles API !
+    - Ne les mets pas dans le code
+    - Ne les uploade pas sur GitHub
+    - Utilise toujours les "Environment Variables" du service
+
+Si quelqu'un vole tes cles, il peut utiliser ton credit API.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  BESOIN D'AIDE ?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Si tu as des difficultes, demande a Claude de t'aider !
+Tu peux copier-coller les messages d'erreur.
+

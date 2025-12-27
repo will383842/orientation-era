@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="384" height="384" viewBox="0 0 384 384">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="384" height="384" rx="76.80000000000001" fill="url(#grad)"/>
+  <!-- Star/Compass icon -->
+  <g transform="translate(192, 192)">
+    <!-- Étoile stylisée -->
+    <path d="M0,-107.52 L24.576,-24.576 L107.52,0 L24.576,24.576 L0,107.52 L-24.576,24.576 L-107.52,0 L-24.576,-24.576 Z"
+          fill="white" opacity="0.95"/>
+    <!-- Centre -->
+    <circle r="24.576" fill="white"/>
+  </g>
+  <!-- Lettre E pour ERA -->
+  <text x="192" y="222.71999999999997"
+        font-family="Arial, sans-serif"
+        font-size="96"
+        font-weight="bold"
+        fill="white"
+        text-anchor="middle"
+        opacity="0.9">E</text>
+</svg>

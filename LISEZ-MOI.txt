@@ -1,0 +1,86 @@
+╔══════════════════════════════════════════════════════════════╗
+║         ORIENTATION BAC PRO ERA - Guide d'installation       ║
+╚══════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  INSTALLATION SUR ORDINATEUR (Windows)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ÉTAPE 1 : Installer Node.js (une seule fois)
+   → Va sur https://nodejs.org/
+   → Télécharge la version LTS (bouton vert)
+   → Installe-le (suivre les instructions)
+
+ÉTAPE 2 : Configurer les clés API
+   → Ouvre le fichier ".env" avec un éditeur de texte
+   → Remplace les "xxxxx" par tes vraies clés API
+   → Sauvegarde le fichier
+
+ÉTAPE 3 : Installer l'application
+   → Double-clique sur "INSTALLER.bat"
+   → Attends que l'installation se termine
+
+ÉTAPE 4 : Créer un raccourci (optionnel)
+   → Double-clique sur "CREER-RACCOURCI.bat"
+   → Un raccourci apparaît sur ton Bureau
+
+POUR LANCER L'APPLICATION :
+   → Double-clique sur "LANCER.bat" (ou le raccourci Bureau)
+   → L'application s'ouvre automatiquement dans ton navigateur
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  UTILISATION SUR iPHONE / TABLETTE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+L'iPhone doit être sur le MÊME réseau WiFi que l'ordinateur.
+
+1. Lance l'application sur l'ordinateur (LANCER.bat)
+
+2. Sur l'iPhone, ouvre Safari et tape :
+   → http://192.168.31.40:3000
+   (ou l'adresse IP affichée au démarrage)
+
+3. Pour "installer" sur l'écran d'accueil :
+   → Appuie sur le bouton Partager (carré avec flèche)
+   → Choisis "Sur l'écran d'accueil"
+   → Donne un nom → Ajouter
+
+⚠️ IMPORTANT : L'ordinateur doit rester allumé avec
+   l'application lancée pour que l'iPhone puisse y accéder.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  CLÉS API NÉCESSAIRES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CLAUDE (Anthropic) - OBLIGATOIRE
+   → https://console.anthropic.com/
+   → ~5€ de crédits offerts
+
+GPT-4 (OpenAI) - RECOMMANDÉ
+   → https://platform.openai.com/api-keys
+   → ~5€ de crédits offerts
+
+PERPLEXITY - RECOMMANDÉ
+   → https://www.perplexity.ai/settings/api
+   → ~5€ minimum
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  EN CAS DE PROBLÈME
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+"L'application ne se lance pas"
+   → Vérifie que Node.js est installé
+   → Relance INSTALLER.bat
+
+"Erreur de clé API"
+   → Vérifie que le fichier .env contient tes vraies clés
+   → Les clés doivent commencer par sk-ant-, sk-, ou pplx-
+
+"L'iPhone ne peut pas se connecter"
+   → Vérifie que les deux appareils sont sur le même WiFi
+   → Vérifie que l'ordinateur a bien lancé l'application
+   → Essaie avec l'adresse http://localhost:3000 sur l'ordinateur
+
