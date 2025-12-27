@@ -340,7 +340,21 @@ Minimum 4 métiers auxquels on ne pense pas avec un Bac Pro ERA :
 - Événementiel
 - Autres secteurs inattendus
 
-## E. PARCOURS D'ÉTUDES
+## E. CHANGER DE VOIE : AUTRES DOMAINES ACCESSIBLES 🔄
+Minimum 5 métiers dans des domaines COMPLÈTEMENT DIFFÉRENTS mais accessibles avec un Bac Pro :
+- Commerce / Vente / Retail (vendeur, conseiller, commercial)
+- Tourisme / Hôtellerie (réceptionniste, agent de voyage, animateur)
+- Social / Animation (animateur, éducateur, aide à la personne)
+- Administratif / Secrétariat (assistant, gestionnaire)
+- Santé / Paramédical (aide-soignant, auxiliaire, ambulancier)
+- Sécurité (agent de sécurité, pompier, police/gendarmerie)
+- Armée (différents corps et spécialités)
+- Fonction publique (concours catégorie C accessibles)
+- Entrepreneuriat (créer sa propre activité)
+
+Pour chaque métier : formation nécessaire, durée, accessibilité depuis un Bac Pro.
+
+## F. PARCOURS D'ÉTUDES
 Pour les formations courtes (0-2 ans) et longues (3-5 ans)
 
 ═══════════════════════════════════════════════════════════════
@@ -490,6 +504,18 @@ Des métiers classiques mais avec de bons débouchés.
 
 Même format tableau avec chances d'admission.
 
+## 🔄 CHANGER DE VOIE : 5 AUTRES DOMAINES POSSIBLES
+Des métiers dans des secteurs COMPLÈTEMENT DIFFÉRENTS mais accessibles avec son Bac Pro :
+- Commerce, vente, tourisme
+- Social, animation, santé
+- Sécurité, armée, fonction publique
+- Entrepreneuriat
+
+| Domaine | Métier | Formation | Durée | Accessibilité | Salaire débutant |
+|---------|--------|-----------|-------|---------------|------------------|
+
+Montre-lui qu'elle n'est PAS enfermée dans l'agencement et peut se réorienter si elle le souhaite.
+
 ## 📚 FORMATIONS RECOMMANDÉES
 
 ### Si elle veut travailler vite (Bac+2) :
@@ -510,6 +536,10 @@ Bac Pro ERA → [Formation] → [Métier tech/BIM] → [Évolution]
 
 **PARCOURS 3 : "Créativité et passion"**
 Bac Pro ERA → [Formation design] → [Métier créatif] → [Évolution]
+
+**PARCOURS 4 : "Changer de voie"**
+Bac Pro ERA → [Formation dans un autre domaine] → [Nouveau métier] → [Évolution]
+(Ex: commerce, social, tourisme, santé, sécurité, etc.)
 
 ## 📝 COMMENT S'INSCRIRE
 
