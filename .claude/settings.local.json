@@ -15,7 +15,13 @@
       "Bash(node --check:*)",
       "Bash(git --version)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit - Orientation ERA v2.0\n\nApplication d''orientation post Bac Pro ERA avec:\n- Analyse IA multi-modèles \\(Claude, GPT-4, Perplexity\\)\n- PWA installable sur mobile\n- Système de favoris et historique\n- QR code pour partage iPhone\n\n🤖 Generated with Claude Code\nEOF\n\\)\")",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "WebFetch(domain:api.qrserver.com)",
+      "Bash(git commit:*)"
     ]
   }
 }

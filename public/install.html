@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Installer Orientation ERA</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="/icons/icon-192.svg">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 24px;
+            padding: 2rem;
+            max-width: 380px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #8b5cf6, #ec4899);
+            border-radius: 20px;
+            margin: 0 auto 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+        }
+        h1 {
+            font-size: 1.5rem;
+            color: #1f2937;
+            margin-bottom: 0.5rem;
+        }
+        .subtitle {
+            color: #6b7280;
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+        }
+        .steps {
+            text-align: left;
+            margin-bottom: 2rem;
+        }
+        .step {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 1.25rem;
+            padding-bottom: 1.25rem;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .step:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .step-number {
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(135deg, #8b5cf6, #ec4899);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.9rem;
+            flex-shrink: 0;
+        }
+        .step-content h3 {
+            font-size: 0.95rem;
+            color: #1f2937;
+            margin-bottom: 0.25rem;
+        }
+        .step-content p {
+            font-size: 0.85rem;
+            color: #6b7280;
+        }
+        .step-icon {
+            font-size: 1.5rem;
+            margin-right: 0.5rem;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+            background: linear-gradient(135deg, #8b5cf6, #ec4899);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            margin-bottom: 1rem;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(139, 92, 246, 0.4);
+        }
+        .btn-secondary {
+            background: #f3f4f6;
+            color: #374151;
+        }
+        .already-installed {
+            display: none;
+            text-align: center;
+        }
+        .already-installed .icon {
+            background: #10b981;
+        }
+        .android-prompt {
+            display: none;
+        }
+        .note {
+            font-size: 0.8rem;
+            color: #9ca3af;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="card" id="installCard">
+        <div class="icon">✨</div>
+        <h1>Orientation ERA</h1>
+        <p class="subtitle">Installe l'app sur ton téléphone en 3 étapes</p>
+
+        <div class="steps" id="iosSteps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <h3><span class="step-icon">📤</span> Appuie sur Partager</h3>
+                    <p>Le bouton carré avec une flèche en bas de Safari</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <h3><span class="step-icon">➕</span> "Sur l'écran d'accueil"</h3>
+                    <p>Fais défiler et appuie sur cette option</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <h3><span class="step-icon">✅</span> Appuie sur "Ajouter"</h3>
+                    <p>L'app apparaît sur ton écran d'accueil !</p>
+                </div>
+            </div>
+        </div>
+
+        <a href="/" class="btn" id="openAppBtn">Ouvrir l'application</a>
+
+        <p class="note">Une fois installée, tu pourras y accéder comme une vraie app !</p>
+    </div>
+
+    <div class="card already-installed" id="installedCard">
+        <div class="icon">✅</div>
+        <h1>Déjà installée !</h1>
+        <p class="subtitle">L'application est prête à être utilisée</p>
+        <a href="/" class="btn">Ouvrir Orientation ERA</a>
+    </div>
+
+    <script>
+        // Détecter si déjà en mode standalone (installé)
+        if (window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches) {
+            document.getElementById('installCard').style.display = 'none';
+            document.getElementById('installedCard').style.display = 'block';
+        }
+
+        // Détecter Android pour le prompt automatique
+        const isAndroid = /android/i.test(navigator.userAgent);
+        let deferredPrompt;
+
+        if (isAndroid) {
+            window.addEventListener('beforeinstallprompt', (e) => {
+                e.preventDefault();
+                deferredPrompt = e;
+
+                const btn = document.getElementById('openAppBtn');
+                btn.textContent = "📲 Installer l'application";
+                btn.onclick = async (e) => {
+                    e.preventDefault();
+                    if (deferredPrompt) {
+                        deferredPrompt.prompt();
+                        const { outcome } = await deferredPrompt.userChoice;
+                        if (outcome === 'accepted') {
+                            window.location.href = '/';
+                        }
+                        deferredPrompt = null;
+                    }
+                };
+            });
+        }
+    </script>
+</body>
+</html>
