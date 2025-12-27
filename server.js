@@ -313,46 +313,164 @@ PROPOSE CES CATÉGORIES DE MÉTIERS :
 ═══════════════════════════════════════════════════════════════
 
 ## A. MÉTIERS D'AVENIR À FORT POTENTIEL 🚀
-Minimum 6 métiers qui vont se développer dans les 10 prochaines années :
-- Liés au numérique (BIM, 3D, réalité virtuelle)
-- Liés à l'éco-construction et au durable
-- Liés aux nouvelles façons de vivre/travailler
-- Liés à la rénovation énergétique
+Minimum 8 métiers qui vont EXPLOSER dans les 10 prochaines années :
+
+**Numérique et Tech :**
+- BIM Manager / BIM Modeleur (TRÈS demandé)
+- Infographiste 3D / Visualiste architectural
+- Concepteur en réalité virtuelle (VR) / augmentée (AR)
+- Designer d'espaces virtuels (métavers, jeux vidéo)
+- Technicien scan 3D / relevé numérique
+
+**Éco-construction et Durabilité :**
+- Conseiller en rénovation énergétique (MaPrimeRénov')
+- Technicien en éco-matériaux (chanvre, bois, paille)
+- Auditeur énergétique
+- Coordinateur de chantier éco-responsable
+- Spécialiste isolation thermique
+
+**Nouvelles façons de vivre :**
+- Concepteur de tiny houses / habitats alternatifs
+- Aménageur d'espaces de coworking/coliving
+- Designer d'espaces modulables / flexibles
+- Space planner (optimisation d'espaces)
 
 ## B. MÉTIERS STABLES ET RECHERCHÉS 💼
-Minimum 5 métiers classiques mais avec de bons débouchés :
-- Où il y a de l'emploi
-- Où les salaires sont corrects
-- Où on peut évoluer
+Minimum 8 métiers classiques avec EXCELLENTS débouchés (pénurie de main d'œuvre) :
+
+**Agencement et menuiserie :**
+- Agenceur (le métier naturel après ERA)
+- Menuisier agenceur
+- Poseur de cuisines / salles de bain
+- Installateur de dressing / rangements
+
+**Construction et bâtiment :**
+- Chef d'équipe agencement
+- Conducteur de travaux TCE
+- Métreur / Économiste de la construction
+- Technicien bureau d'études
+
+**Artisanat d'excellence :**
+- Ébéniste
+- Menuisier d'art
+- Restaurateur de meubles anciens
+- Marqueteur
 
 ## C. MÉTIERS CRÉATIFS ET PASSIONNANTS 🎨
-Minimum 4 métiers pour ceux qui veulent de la créativité :
-- Design
-- Décoration
-- Scénographie
-- Etc.
+Minimum 6 métiers pour les passionnés de création :
 
-## D. MÉTIERS SURPRENANTS 🌟
-Minimum 4 métiers auxquels on ne pense pas avec un Bac Pro ERA :
-- Cinéma/spectacle
-- Luxe
-- Nautisme
-- Événementiel
-- Autres secteurs inattendus
+**Design d'espace :**
+- Architecte d'intérieur (après études)
+- Décorateur / Décoratrice d'intérieur
+- Home stager (valorisation immobilière)
+- Coloriste conseil
+
+**Scénographie et événementiel :**
+- Scénographe d'exposition
+- Muséographe
+- Designer d'événements
+- Concepteur de stands / salons
+
+**Retail et commercial :**
+- Visual merchandiser
+- Étalagiste
+- Designer de vitrines
+- Concepteur de flagship stores
+
+## D. MÉTIERS SURPRENANTS ET INSOLITES 🌟
+Minimum 6 métiers auxquels on ne pense JAMAIS avec un Bac Pro ERA :
+
+**Cinéma et audiovisuel :**
+- Chef décorateur cinéma/TV/pub
+- Constructeur de décors (films, séries)
+- Accessoiriste plateau
+- Régisseur de plateau
+
+**Spectacle vivant :**
+- Scénographe de théâtre / opéra
+- Technicien de spectacle
+- Constructeur de décors de scène
+- Machiniste
+
+**Luxe et prestige :**
+- Agenceur yachts et jets privés
+- Décorateur hôtellerie de luxe
+- Concepteur de boutiques de luxe
+- Aménageur de résidences privées haut de gamme
+
+**Loisirs et divertissement :**
+- Escape game designer / constructeur
+- Concepteur de parcs d'attractions
+- Décorateur de restaurants thématiques
+- Designer de concept stores originaux
+
+**Nautisme :**
+- Menuisier naval
+- Agenceur de bateaux
+- Aménageur de péniches habitables
 
 ## E. CHANGER DE VOIE : AUTRES DOMAINES ACCESSIBLES 🔄
-Minimum 5 métiers dans des domaines COMPLÈTEMENT DIFFÉRENTS mais accessibles avec un Bac Pro :
-- Commerce / Vente / Retail (vendeur, conseiller, commercial)
-- Tourisme / Hôtellerie (réceptionniste, agent de voyage, animateur)
-- Social / Animation (animateur, éducateur, aide à la personne)
-- Administratif / Secrétariat (assistant, gestionnaire)
-- Santé / Paramédical (aide-soignant, auxiliaire, ambulancier)
-- Sécurité (agent de sécurité, pompier, police/gendarmerie)
-- Armée (différents corps et spécialités)
-- Fonction publique (concours catégorie C accessibles)
-- Entrepreneuriat (créer sa propre activité)
+Minimum 6 métiers dans des domaines COMPLÈTEMENT DIFFÉRENTS mais accessibles avec un Bac Pro :
 
-Pour chaque métier : formation nécessaire, durée, accessibilité depuis un Bac Pro.
+**Commerce / Vente / Retail :**
+- Conseiller de vente spécialisé (bricolage, déco, ameublement)
+- Vendeur en showroom (cuisines, salles de bain)
+- Commercial B2B (matériaux, équipements)
+- Technico-commercial
+- Responsable de rayon
+
+**Social / Animation / Éducation :**
+- Animateur socioculturel (BPJEPS)
+- Éducateur spécialisé
+- Moniteur éducateur
+- Accompagnant éducatif et social (AES)
+- Animateur périscolaire
+
+**Santé / Paramédical :**
+- Aide-soignant(e) (très demandé)
+- Auxiliaire de puériculture
+- Ambulancier
+- Brancardier
+- Assistant dentaire
+
+**Sécurité / Protection :**
+- Sapeur-pompier (professionnel ou volontaire)
+- Agent de sécurité
+- Gardien de la paix (Police nationale)
+- Gendarme
+- Agent de surveillance
+
+**Armée / Défense :**
+- Militaire du rang (Terre, Air, Marine)
+- Gendarme adjoint volontaire
+- Matelot de la flotte
+- Spécialités techniques dans l'armée
+
+**Fonction publique :**
+- Adjoint administratif (concours catégorie C)
+- Agent territorial
+- Gardien de musée / médiateur culturel
+- Agent des espaces verts
+
+**Transport / Logistique :**
+- Conducteur de bus/car
+- Chauffeur-livreur
+- Agent logistique
+- Cariste / préparateur de commandes
+
+**Métiers avec les animaux 🐾 :**
+- Auxiliaire vétérinaire (ASV) - formation en alternance
+- Soigneur animalier (parcs, zoos, refuges)
+- Éducateur canin
+- Toiletteur canin/félin
+- Vendeur en animalerie
+- Pet-sitter / Dog-sitter
+- Agent cynophile de sécurité (avec chien)
+- Palefrenier / Lad-jockey (chevaux)
+- Assistant en clinique vétérinaire
+- Comportementaliste animalier
+
+Pour chaque métier : formation nécessaire, durée, salaire, évolutions possibles, établissements.
 
 ## F. PARCOURS D'ÉTUDES
 Pour les formations courtes (0-2 ans) et longues (3-5 ans)
@@ -424,21 +542,41 @@ CHERCHE DES MÉTIERS DANS CES DOMAINES ÉMERGENTS :
 - Concepteur de showrooms
 - Aménageur de food courts
 - Designer de concept stores
+- Créateur de décors pour influenceurs/studios photo
+- Aménageur de van/camping-car
+
+🐾 **MÉTIERS AVEC LES ANIMAUX** (si elle aime les animaux)
+- Auxiliaire vétérinaire (ASV)
+- Soigneur animalier (zoos, parcs, refuges)
+- Éducateur canin
+- Toiletteur
+- Agent cynophile de sécurité
+
+💼 **RECONVERSION TOTALE POSSIBLE**
+Mentionne aussi qu'elle peut se réorienter vers :
+- Commerce/vente (ses compétences techniques sont un atout)
+- Social/animation (BPJEPS, éducateur)
+- Santé (aide-soignante, auxiliaire)
+- Sécurité/Armée/Police (concours accessibles)
+- Fonction publique (concours catégorie C)
 
 ═══════════════════════════════════════════════════════════════
-POUR CHAQUE MÉTIER, DONNE :
+POUR CHAQUE MÉTIER, DONNE DES INFOS COMPLÈTES :
 ═══════════════════════════════════════════════════════════════
 
 **[NOM DU MÉTIER]** [emoji]
-- Ce que c'est (2 lignes max)
-- Pourquoi c'est un métier d'AVENIR
-- Comment y accéder depuis un Bac Pro ERA
-- 🎯 Chances d'admission : [Élevées ⭐⭐⭐ / Moyennes ⭐⭐ / Sélectives ⭐]
-- Salaire estimé
-- Un truc cool sur ce métier
+- 💡 **C'est quoi** : description claire en 2-3 lignes
+- 📈 **Pourquoi c'est l'avenir** : tendances, demande, croissance
+- 🎓 **Formation** : diplôme exact + durée + alternance possible ?
+- 🏫 **Où se former** : établissements (surtout région Auvergne-Rhône-Alpes si possible)
+- 🎯 **Chances d'admission Bac Pro ERA** : Élevées ⭐⭐⭐ / Moyennes ⭐⭐ / Sélectives ⭐ + explication
+- 💰 **Salaire** : débutant → 5 ans → confirmé
+- ✨ **Le + cool** : un truc motivant sur ce métier
+- 📍 **Débouchés** : types d'employeurs, régions qui recrutent
 
-Propose MINIMUM 12 métiers vraiment originaux et porteurs.
-Ne répète pas les métiers classiques (agenceur, menuisier basique, etc.)`;
+Propose MINIMUM 15 métiers vraiment originaux et porteurs.
+Sois PRÉCIS : noms d'écoles, villes, chiffres concrets.
+Ne répète pas les métiers classiques (agenceur basique, menuisier standard, etc.)`;
 
     // Appels en parallèle
     const [claudeResult, gptResult] = await Promise.all([
@@ -504,17 +642,35 @@ Des métiers classiques mais avec de bons débouchés.
 
 Même format tableau avec chances d'admission.
 
-## 🔄 CHANGER DE VOIE : 5 AUTRES DOMAINES POSSIBLES
-Des métiers dans des secteurs COMPLÈTEMENT DIFFÉRENTS mais accessibles avec son Bac Pro :
-- Commerce, vente, tourisme
-- Social, animation, santé
-- Sécurité, armée, fonction publique
-- Entrepreneuriat
+## 🔄 CHANGER COMPLÈTEMENT DE VOIE : 6 AUTRES DOMAINES
+Si elle veut faire TOTALEMENT autre chose, voici les options accessibles avec son Bac Pro :
 
-| Domaine | Métier | Formation | Durée | Accessibilité | Salaire débutant |
-|---------|--------|-----------|-------|---------------|------------------|
+**Commerce / Vente** (valorise ses compétences techniques) :
+| Métier | Formation | Durée | Salaire |
+|--------|-----------|-------|---------|
 
-Montre-lui qu'elle n'est PAS enfermée dans l'agencement et peut se réorienter si elle le souhaite.
+**Social / Animation / Éducation** :
+| Métier | Formation | Durée | Salaire |
+|--------|-----------|-------|---------|
+
+**Santé / Paramédical** (secteur qui recrute +++) :
+| Métier | Formation | Durée | Salaire |
+|--------|-----------|-------|---------|
+
+**Sécurité / Armée / Fonction publique** :
+| Métier | Formation | Durée | Salaire |
+|--------|-----------|-------|---------|
+
+**Transport / Logistique** :
+| Métier | Formation | Durée | Salaire |
+|--------|-----------|-------|---------|
+
+**Métiers avec les animaux 🐾** (si elle aime les animaux) :
+| Métier | Formation | Durée | Salaire |
+|--------|-----------|-------|---------|
+(Auxiliaire vétérinaire, soigneur animalier, éducateur canin, toiletteur, etc.)
+
+IMPORTANT : Montre-lui qu'elle n'est PAS enfermée et peut se réorienter totalement si elle le souhaite. Le Bac Pro est un TREMPLIN, pas une prison !
 
 ## 📚 FORMATIONS RECOMMANDÉES
 
@@ -537,9 +693,9 @@ Bac Pro ERA → [Formation] → [Métier tech/BIM] → [Évolution]
 **PARCOURS 3 : "Créativité et passion"**
 Bac Pro ERA → [Formation design] → [Métier créatif] → [Évolution]
 
-**PARCOURS 4 : "Changer de voie"**
+**PARCOURS 4 : "Changer complètement de voie"**
 Bac Pro ERA → [Formation dans un autre domaine] → [Nouveau métier] → [Évolution]
-(Ex: commerce, social, tourisme, santé, sécurité, etc.)
+(Ex: commerce/vente, social/animation, santé, sécurité/armée, fonction publique, transport/logistique)
 
 ## 📝 COMMENT S'INSCRIRE
 
